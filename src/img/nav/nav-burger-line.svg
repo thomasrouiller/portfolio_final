@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37.532px" height="29.8701px" viewBox="0 0 37.532 29.8701" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>burger</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Medium-Copy-5" transform="translate(-337, -20)" fill="#FFFFFF">
+            <g id="burger" transform="translate(337, 20)">
+                <polygon id="Fill-1" points="0 29.8701 37.532 29.8701 37.532 22.1921 22.144 22.3691 0 21.8011"></polygon>
+                <polygon id="Fill-2" points="0 18.9036 37.532 18.9036 37.532 11.2246 22.144 11.4026 0 10.8346"></polygon>
+                <polygon id="Fill-3" points="0 -3.55271368e-15 0 8.069 37.532 8.069 37.532 0.391 22.144 0.569"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

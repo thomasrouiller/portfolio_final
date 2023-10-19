@@ -3,6 +3,8 @@
 // ==================================== */
 
 :root {
+  --black: #121212;
+  --white: #fdfdfd;
 }
 
 /* ====================================
@@ -26,6 +28,11 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  background-color: var(--black);
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: "acumin-pro-condensed";
+  font-weight: normal;
 }
 
 a {
@@ -42,3 +49,30 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+h1 {
+  font-family: "gin";
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 113px;
+  letter-spacing: -1.94px;
+  line-height: 91px;
+}
+
+h2 {
+  font-family: "gin";
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 60px;
+  letter-spacing: 1.25px;
+}
+
+h3 {
+  font-family: "kaotizm";
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 5px;
+  margin-top: 30px;
+}

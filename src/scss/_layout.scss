@@ -67,3 +67,25 @@
   padding-right: 0;
   padding-left: 0;
 }
+
+.layout-personnal-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.layout-personnal-container img {
+  width: 33%;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .layout-personnal-container img {
+    width: 100%;
+  }
+  .layout-personnal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -57,6 +57,7 @@ h1 {
   font-size: 113px;
   letter-spacing: -1.94px;
   line-height: 91px;
+  margin-bottom: -10px;
 }
 
 h2 {
@@ -75,4 +76,40 @@ h3 {
   letter-spacing: 1px;
   line-height: 5px;
   margin-top: 30px;
+}
+
+p {
+  text-transform: uppercase;
+  font-family: "acumin-pro-condensed";
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: -0.08px;
+  line-height: 19px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 60px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 57px;
+    letter-spacing: -0.98px;
+    line-height: 46px;
+  }
+  h2 {
+    font-size: 30px;
+    letter-spacing: 0.54px;
+  }
+  h3 {
+    font-size: 25px;
+    letter-spacing: 0.45px;
+  }
 }

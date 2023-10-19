@@ -1,3 +1,47 @@
 .arrow {
   width: 78px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 1000px) {
+  .arrow {
+    width: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .arrow {
+    width: 30px;
+  }
+}
+
+.arrow:hover {
+  transform: translateX(10px); /* Apply the translation on hover */
+}
+
+.link-hover {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  line-height: 0.7;
+  margin: 16px 0px 10px 0px;
+}
+
+.link-hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  border-bottom: 3px solid transparent; /* Initial transparent line */
+  transition: right 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.link-hover:hover::before {
+  right: 0;
+  border-color: var(--white);
+  transition: right 0.3s ease-in-out;
 }

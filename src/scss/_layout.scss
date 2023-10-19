@@ -18,12 +18,17 @@
 }
 
 .layout-latest-margin {
-  margin: 0% 6%;
+  width: 90%;
   position: absolute;
   bottom: 0px;
-  left: 0px;
+  left: 5%;
 }
 
 .layout-latest-container {
   position: relative;
+}
+@media (max-width: 1000px) {
+  .layout-header-decoration {
+    display: none;
+  }
 }

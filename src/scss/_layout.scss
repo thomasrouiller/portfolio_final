@@ -79,6 +79,26 @@
   margin: 10px;
 }
 
+.footer-info {
+  font-family: "acumin-pro";
+  font-size: 12px;
+  letter-spacing: -0.84px;
+  line-height: 12px;
+}
+
+.layout-footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.layout-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+
 @media (max-width: 768px) {
   .layout-personnal-container img {
     width: 100%;
@@ -87,5 +107,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .layout-footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 40px;
+  }
+  .layout-footer-links {
+    margin-top: 20px;
   }
 }

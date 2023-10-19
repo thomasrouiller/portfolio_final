@@ -36,3 +36,34 @@
 .layout-img-spacer {
   margin: 20px 0px;
 }
+
+.layout-block-spacer {
+  margin-top: 20px;
+}
+
+.layout-bootstrap-txt-margin {
+  margin: 5px 0px 10px 0px;
+}
+
+@media (max-width: 786px) {
+  .layout-bootstrap-txt-margin {
+    font-size: 14px;
+    letter-spacing: -0.04px;
+    line-height: 16px;
+  }
+}
+
+.no-gutter {
+  padding: 0;
+  margin: 0;
+}
+
+.row.no-gutter {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.col-6.no-gutter {
+  padding-right: 0;
+  padding-left: 0;
+}

@@ -44,6 +44,33 @@ var openMenu = function () {
 
 button.addEventListener("click", openMenu);
 
-links.forEach((link) => {
-  link.addEventListener("click", openMenu);
+window.onload = function () {
+  gsap.fromTo(
+    document.body,
+    {
+      opacity: 0,
+    },
+    {
+      opacity: 1,
+      duration: 1.5,
+      ease: "power2.inOut",
+    }
+  );
+};
+
+const animateButton = document.getElementById("animateButton");
+const links = document.querySelectorAll(".hover-link a");
+
+animateButton.addEventListener("click", () => {
+  gsap.fromTo(
+    document.body,
+    {
+      opacity: 0,
+    },
+    {
+      opacity: 1,
+      duration: 1.5,
+      ease: "power2.inOut",
+    }
+  );
 });

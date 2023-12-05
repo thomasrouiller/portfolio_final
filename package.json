@@ -33,9 +33,11 @@
     "parcel-namer-rewrite": "^2.0.0-rc.2",
     "posthtml-include": "^1.7.1",
     "rimraf": "^3.0.2",
-    "sass": "^1.42.1"
+    "sass": "^1.42.1",
+    "sharp": "^0.29.3"
   },
   "dependencies": {
-    "posthtml-extend": "^0.6.5"
+    "posthtml-extend": "^0.6.5",
+    "scrolltrigger": "^1.0.1"
   }
 }

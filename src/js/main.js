@@ -1,4 +1,6 @@
 import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 // const observer = new IntersectionObserver((entries) => {
 //   entries.forEach((entry) => {
@@ -44,19 +46,19 @@ var openMenu = function () {
 
 button.addEventListener("click", openMenu);
 
-window.onload = function () {
-  gsap.fromTo(
-    document.body,
-    {
-      opacity: 0,
-    },
-    {
-      opacity: 1,
-      duration: 1.5,
-      ease: "power2.inOut",
-    }
-  );
-};
+// window.onload = function () {
+//   gsap.fromTo(
+//     document.body,
+//     {
+//       opacity: 0,
+//     },
+//     {
+//       opacity: 1,
+//       duration: 1.5,
+//       ease: "power2.inOut",
+//     }
+//   );
+// };
 
 const animateButton = document.getElementById("animateButton");
 const links = document.querySelectorAll(".hover-link a");

@@ -76,7 +76,7 @@ h3 {
   font-size: 30px;
   letter-spacing: 1px;
   line-height: 5px;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 p {
@@ -102,17 +102,18 @@ a {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 57px;
+    font-size: 40px;
     letter-spacing: -0.98px;
-    line-height: 57px;
+    line-height: 32px;
     margin-bottom: -5px;
   }
   h2 {
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 0.54px;
+    line-height: 5px;
   }
   h3 {
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 0.45px;
   }
   p {

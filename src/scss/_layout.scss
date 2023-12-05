@@ -11,10 +11,22 @@
 }
 
 .layout-home-flex-2 {
+  padding: 25px 10px 0px 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
+  background-color: #121212;
+  color: white;
+  transition: 0.3s;
+}
+
+.layout-home-flex-2:hover {
+  background-color: white;
+  color: #121212;
+}
+.layout-home-flex-nobg {
+  background-color: transparent;
 }
 
 .layout-latest-margin {
@@ -27,11 +39,16 @@
 
 .layout-latest-container {
   position: relative;
+  margin-bottom: 50px;
 }
 @media (max-width: 1000px) {
   .layout-header-decoration {
     display: none;
   }
+}
+
+.layout-margin {
+  margin-bottom: 50px;
 }
 
 .layout-img-spacer {
